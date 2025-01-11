@@ -19,21 +19,129 @@
     <section>
       <h3 class="rolesWraperHeader">Crewmates</h3>
       <div class="flex flex-wrap justify-center">
-        <div class="
-            bg-gray-800 p-5 m-5 rounded-lg
-            border-2 border-gray-700
-          ">
-          <span class="text-2xl">Impostor</span>
-          <img class="" alt="Impostor" src="https://github.com/eDonnes124/Town-Of-Us-R/blob/master/Images/Roles.png">
-          <p>The Impostor's goal is to eliminate the Crewmates without getting caught.</p>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/investigator.png">
+          <p class="mt-3">Badacz to członek załogi, który widzi ślady stóp graczy.
+            Każdy ślad znika po określonym czasie.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/seer.png">
+          <p class="mt-3">Seer to członek załogi, który może ujawnić sojusz innych graczy.
+            Na podstawie ustawień Widzący może dowiedzieć się, czy gracz jest rolą Dobra, czy Zła.
+            Imię gracza zmieni kolor w zależności od frakcji i roli.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/snitch.png">
+          <p class="mt-3">Znicz to członek załogi, który może skierować strzałki w stronę oszustów, gdy wszystkie ich zadania zostaną wykonane.
+            Imiona oszustów będą również wyświetlane na ich ekranach w kolorze czerwonym.
+            Jednakże, gdy pozostało im tylko jedno zadanie, Oszuści otrzymują strzałkę skierowaną w stronę znicza.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/trapper.png">
+          <p class="mt-3">Traper to członek załogi, który może umieszczać pułapki na mapie.
+            Kiedy gracze wchodzą w pułapkę, uruchamiają ją.
+            Podczas następnego spotkania traperowi zostanie wyświetlona rola wszystkich graczy, którzy uruchomili pułapkę.
+            Odbywa się to jednak w kolejności losowej, bez określenia, kto wszedł w pułapkę ani jaką rolę pełni konkretny gracz.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/tracker.png">
+          <p class="mt-3">Tropiciel to członek załogi, który może śledzić innych graczy, śledząc ich podczas rundy.
+            Gdy już kogoś wyśledzą, strzałka stale wskazuje tę osobę, a informacje są aktualizowane w określonych odstępach czasu.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/mystic.png">
+          <p class="mt-3">Mistyk to członek załogi, który otrzymuje powiadomienie informujące o śmierci kogoś.
+            Oprócz tego Mistyk na krótko otrzymuje strzałkę skierowaną w stronę ciała.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/sherif.png">
+          <p class="mt-3">Szeryf to członek załogi, który ma zdolność eliminowania oszustów za pomocą przycisku zabijania.
+            Jeśli jednak zabiją członka załogi lub gracza neutralnego, którego nie mogą zabić, zamiast tego sami giną.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/medic.png">
+          <p class="mt-3">Medyk to członek załogi, który może dać każdemu graczowi tarczę, która uczyni go nieśmiertelnym aż do śmierci Medyka. Gracz z tarczą nie może zostać zabity przez nikogo, chyba że popełni samobójstwo. Jeśli Medyk zgłosi zwłoki, może otrzymać raport zawierający wskazówki co do tożsamości Zabójcy.
+            Raport może zawierać imię i nazwisko zabójcy lub rodzaj koloru (Ciemniejszy/Jaśniejszy)</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/swapper.png">
+          <p class="mt-3">Zmieniacz to członek załogi, który podczas spotkania może zamienić głosy pomiędzy 2 graczami.
+            Zamiast tego wszystkie głosy oddane na pierwszego gracza zostaną wliczone w głosy oddane na drugiego gracza i odwrotnie.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/transporter.png">
+          <p class="mt-3">Transporter to członek załogi, który może dowolnie zmieniać lokalizację dwóch losowych graczy.
+            Gracze, którzy zostali przetransportowani, są o tym powiadamiani niebieskim błyskiem na ekranie.</p>
         </div>
       </div>
     </section>
     <section>
-      <h3>Neutral</h3>
+      <h3 class="rolesWraperHeader">Neutrals</h3>
+      <div class="flex flex-wrap justify-center">
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/amnesiac.png">
+          <p class="mt-3">Amnezjolog to rola neutralna, w której nie ma warunku wygranej.
+            Mają zero zadań i są zasadniczo bez roli.
+            Mogą jednak zapamiętać rolę, znajdując martwego gracza.
+            Kiedy już zapamiętają swoją rolę, próbują wygrać, korzystając z nowego warunku zwycięstwa.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/guardian_angel.png">
+          <p class="mt-3">Anioł Stróż jest rolą neutralną, która jest dostosowana do frakcji będącej celem.
+            Ich zadaniem jest ochrona celu za wszelką cenę.
+            Jeśli ich cel przegra, przegrywają.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/exe.png">
+          <p class="mt-3">Kat jest rolą neutralną z własnym warunkiem wygranej.
+            Ich celem jest wykluczenie gracza, określonego na początku gry.
+            Jeśli ten gracz zostanie wykluczony, wygrywa grę.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/jester.png">
+          <p class="mt-3">Błazen to rola neutralna z własnym warunkiem zwycięstwa.
+            Jeśli zostaną wykluczeni po spotkaniu, gra kończy się i wygrywają.
+            Jednakże Błazen nie wygrywa, jeśli wygrają Członkowie Załogi, Oszuści lub inna neutralna rola.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/plague.png">
+          <p class="mt-3">Plaguebearer to rola neutralna z własnym warunkiem zwycięstwa, a także możliwością przekształcenia się w inną rolę. Plaguebearer posiada jedną zdolność, która pozwala mu zarażać innych graczy. Po zainfekowaniu zainfekowany gracz może zarażać innych graczy poprzez interakcję z nimi. Gdy wszyscy gracze zostaną zarażeni,
+            Nosiciel Plagi staje się Zarazą. Zaraza to siła nie do zabicia, którą można zabić jedynie poprzez wykluczenie. Nawet śmierć kochanka ich nie zabije. Plaguebearer lub Zaraza musi być ostatnim żyjącym zabójcą, aby wygrać grę.</p>
+        </div>
+      </div>
     </section>
     <section>
-      <h3>Crewmates</h3>
+      <h3 class="rolesWraperHeader">Impostors</h3>
+      <div class="flex flex-wrap justify-center">
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/grenadier.png">
+          <p class="mt-3">Grenadier to oszust, który może rzucać granaty dymne.
+            Podczas gry Grenadier ma możliwość rzucenia granatu dymnego, który oślepia członków załogi, tak że nie widzą.
+            Jednakże sabotaż i granat dymny nie mogą być aktywne jednocześnie.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/morph.png">
+          <p class="mt-3">Morphling to oszust, który może przekształcić się w innego gracza.
+            Na początku gry i po każdym spotkaniu mogą wybrać osobę, którą będą próbkować.
+            Mogą następnie przemienić się w tę osobę w dowolnym momencie przez ograniczony czas.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/bomber.png">
+          <p class="mt-3">Bombowiec to oszust, który zamiast zabijać, potrafi podkładać bomby.
+            Po podłożeniu bomby zostanie ona zdetonowana przez określony czas, zgodnie z ustawieniami.
+            Gdy bomba wybuchnie, zabije wszystkich członków załogi (i oszustów!) w promieniu.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/black.png">
+          <p class="mt-3">Szantażer to oszust, który może uciszać ludzi podczas spotkań.
+            Podczas każdej rundy Szantażer może podejść do kogoś i go szantażować.
+            Uniemożliwia to szantażowanej osobie zabieranie głosu podczas kolejnego spotkania.</p>
+        </div>
+        <div class="roleCard bg-gray-800 p-5 m-5">
+          <img class="h-[240px]" alt="Impostor" src="./img/undertaker.png">
+          <p class="mt-3">Undertaker to oszust, który może przeciągać i upuszczać ciała.</p>
+        </div>
+      </div>
     </section>
   </main>
 </body>
